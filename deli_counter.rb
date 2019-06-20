@@ -11,7 +11,6 @@ def line(array)
 end
 
 def take_a_number(line_array, name)
-  spot = line_array.size + 1
   puts "Welcome, #{name}. You are number #{line_array.size + 1} in line."
   line_array << name
 end
